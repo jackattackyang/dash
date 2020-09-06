@@ -1,125 +1,41 @@
-attrs @ file:///home/conda/feedstock_root/build_artifacts/attrs_1597959372343/work
-backcall @ file:///home/conda/feedstock_root/build_artifacts/backcall_1592338393461/work
-backports.functools-lru-cache==1.6.1
-bleach @ file:///home/conda/feedstock_root/build_artifacts/bleach_1588608214987/work
-boto==2.49.0
-boto3 @ file:///home/conda/feedstock_root/build_artifacts/boto3_1599255782083/work
-botocore @ file:///home/conda/feedstock_root/build_artifacts/botocore_1599252014234/work
-brotlipy==0.7.0
-bz2file==0.98
-cachetools @ file:///home/conda/feedstock_root/build_artifacts/cachetools_1593420445823/work
-certifi==2020.6.20
-cffi @ file:///D:/bld/cffi_1595805794566/work
-chardet==3.0.4
-click==7.1.2
-colorama==0.4.3
-cryptography @ file:///D:/bld/cryptography_1598621291177/work
-cycler==0.10.0
-dash @ file:///home/conda/feedstock_root/build_artifacts/dash_1596870105808/work
-dash-core-components @ file:///home/conda/feedstock_root/build_artifacts/dash-core-components_1596203643601/work
-dash-html-components==1.0.3
-dash-renderer @ file:///home/conda/feedstock_root/build_artifacts/dash-renderer_1596203647496/work
-dash-table @ file:///home/conda/feedstock_root/build_artifacts/dash-table_1596867885662/work
-decorator==4.4.2
-defusedxml==0.6.0
-docutils==0.15.2
-entrypoints==0.3
-Flask==1.1.2
-Flask-Compress==1.5.0
-future==0.18.2
-gensim @ file:///D:/bld/gensim_1589441310359/work
-google-api-core @ file:///D:/bld/google-api-core-split_1599169095664/work
-google-auth @ file:///home/conda/feedstock_root/build_artifacts/google-auth_1599161935305/work
-google-cloud-core @ file:///home/conda/feedstock_root/build_artifacts/google-cloud-core_1596721852962/work
-google-cloud-storage @ file:///home/conda/feedstock_root/build_artifacts/google-cloud-storage_1598557481535/work
-google-crc32c @ file:///D:/bld/google-crc32c_1597070110876/work
-google-resumable-media @ file:///home/conda/feedstock_root/build_artifacts/google-resumable-media_1598452053521/work
-googleapis-common-protos==1.51.0
-grpcio @ file:///D:/bld/grpcio_1596715902639/work
-idna @ file:///home/conda/feedstock_root/build_artifacts/idna_1593328102638/work
-importlib-metadata @ file:///D:/bld/importlib-metadata_1593211580034/work
-ipykernel @ file:///D:/bld/ipykernel_1595447084845/work/dist/ipykernel-5.3.4-py3-none-any.whl
-ipython @ file:///D:/bld/ipython_1598750147809/work
-ipython-genutils==0.2.0
-itsdangerous==1.1.0
-jedi @ file:///D:/bld/jedi_1595018491768/work
-Jinja2==2.11.2
-jmespath @ file:///home/conda/feedstock_root/build_artifacts/jmespath_1589369830981/work
-joblib @ file:///home/conda/feedstock_root/build_artifacts/joblib_1593624380152/work
-jsonschema==3.2.0
-jupyter-client @ file:///home/conda/feedstock_root/build_artifacts/jupyter_client_1598486169312/work
-jupyter-contrib-core==0.3.3
-jupyter-contrib-nbextensions==0.5.1
-jupyter-core==4.6.3
-jupyter-highlight-selected-word==0.2.0
-jupyter-latex-envs==1.4.4
-jupyter-nbextensions-configurator @ file:///D:/bld/jupyter_nbextensions_configurator_1594127304731/work
-kiwisolver==1.2.0
-lxml @ file:///D:/bld/lxml_1594322910610/work
-MarkupSafe==1.1.1
-matplotlib==3.2.1
-mistune==0.8.4
-nbconvert==5.6.1
-nbformat @ file:///home/conda/feedstock_root/build_artifacts/nbformat_1594060262917/work
-nltk==3.4.4
-notebook==6.0.3
-numdifftools==0.9.39
-numpy @ file:///D:/bld/numpy_1595523081734/work
-packaging @ file:///home/conda/feedstock_root/build_artifacts/packaging_1589925210001/work
-pandas @ file:///D:/bld/pandas_1598294825425/work
-pandocfilters==1.4.2
-parso==0.7.0
-patsy==0.5.1
-pickleshare==0.7.5
-plotly @ file:///home/conda/feedstock_root/build_artifacts/plotly_1594904902831/work
-plotly-express==0.4.1
-praw @ file:///home/conda/feedstock_root/build_artifacts/praw_1588468450379/work
-prawcore @ file:///home/conda/feedstock_root/build_artifacts/prawcore_1588466065629/work
-prometheus-client @ file:///home/conda/feedstock_root/build_artifacts/prometheus_client_1590412252446/work
-prompt-toolkit @ file:///home/conda/feedstock_root/build_artifacts/prompt-toolkit_1598885455507/work
-protobuf==3.13.0
-psaw==0.0.12
-pyasn1==0.4.8
-pyasn1-modules==0.2.7
-pycparser @ file:///home/conda/feedstock_root/build_artifacts/pycparser_1593275161868/work
-Pygments==2.6.1
-pyodbc==4.0.30
-pyOpenSSL==19.1.0
-pyparsing==2.4.7
-PyQt5==5.12.3
-PyQt5-sip==4.19.18
-PyQtChart==5.12
-PyQtWebEngine==5.12.1
-pyrsistent==0.16.0
-PySocks==1.7.1
-python-dateutil==2.8.1
-pytz==2020.1
-pywin32==227
-pywinpty==0.5.7
-PyYAML==5.3.1
-pyzmq==19.0.2
-requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1592425495151/work
-retrying==1.3.3
-rsa @ file:///home/conda/feedstock_root/build_artifacts/rsa_1591996208734/work
-s3transfer==0.3.3
-scikit-learn==0.22.2.post1
-scipy==1.3.2
-seaborn==0.10.1
-Send2Trash==1.5.0
-six @ file:///home/conda/feedstock_root/build_artifacts/six_1590081179328/work
-smart-open @ file:///home/conda/feedstock_root/build_artifacts/smart_open_1598572939086/work
-SQLAlchemy @ file:///D:/bld/sqlalchemy_1589421290594/work
-statsmodels @ file:///D:/bld/statsmodels_1598551276148/work
-terminado==0.8.3
-testpath==0.4.4
-tornado==6.0.4
-traitlets @ file:///home/conda/feedstock_root/build_artifacts/traitlets_1599170348041/work
-update-checker @ file:///home/conda/feedstock_root/build_artifacts/update_checker_1596529541613/work
-urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1595434816409/work
-wcwidth @ file:///home/conda/feedstock_root/build_artifacts/wcwidth_1595859607677/work
-webencodings==0.5.1
-websocket-client @ file:///D:/bld/websocket-client_1598373911115/work
-Werkzeug==1.0.1
-win-inet-pton==1.1.0
-wincertstore==0.2
-zipp==3.1.0
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# platform: win-64
+brotli=1.0.9=pypi_0
+ca-certificates=2020.6.20=hecda079_0
+certifi=2020.6.20=py38h32f6830_0
+click=7.1.2=pypi_0
+dash=1.16.0=pypi_0
+dash-core-components=1.12.0=pypi_0
+dash-html-components=1.1.1=pypi_0
+dash-renderer=1.8.0=pypi_0
+dash-table=4.10.1=pypi_0
+flask=1.1.2=pypi_0
+flask-compress=1.5.0=pypi_0
+future=0.18.2=pypi_0
+gunicorn=20.0.4=pypi_0
+itsdangerous=1.1.0=pypi_0
+jinja2=2.11.2=pypi_0
+markupsafe=1.1.1=pypi_0
+numpy=1.19.1=pypi_0
+openssl=1.1.1g=he774522_1
+pandas=1.1.1=pypi_0
+patsy=0.5.1=pypi_0
+pip=20.2.2=py_0
+plotly=4.9.0=pypi_0
+plotly-express=0.4.1=pypi_0
+python=3.8.5=h60c2a47_7_cpython
+python-dateutil=2.8.1=pypi_0
+python_abi=3.8=1_cp38
+pytz=2020.1=pypi_0
+retrying=1.3.3=pypi_0
+scipy=1.5.2=pypi_0
+setuptools=49.6.0=py38h32f6830_0
+six=1.15.0=pypi_0
+sqlite=3.33.0=he774522_0
+statsmodels=0.12.0=pypi_0
+vc=14.1=h869be7e_1
+vs2015_runtime=14.16.27012=h30e32a0_2
+werkzeug=1.0.1=pypi_0
+wheel=0.35.1=pyh9f0ad1d_0
+wincertstore=0.2=py38_1003
