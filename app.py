@@ -8,6 +8,7 @@ import dash_html_components as html
 from dash.dependencies import Input, Output
 
 app = dash.Dash(__name__)
+server = app.server
 
 df = px.data.gapminder()
 
