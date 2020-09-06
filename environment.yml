@@ -1,0 +1,12 @@
+name: dash_app
+dependencies:
+    - python=3.8.5
+    - pip:
+        - dash
+        - dash-renderer
+        - dash-core-components
+        - dash-html-components
+        - plotly
+        - plotly-express
+        - gunicorn
+        - pandas
