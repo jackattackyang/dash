@@ -6,40 +6,43 @@ import dash_table
 import dash_core_components as dcc
 import dash_html_components as html
 from dash.dependencies import Input, Output
+import dash_bootstrap_components as dbc
 
 app = dash.Dash(__name__)
 server = app.server
 
 df = px.data.gapminder()
 
-app.layout = html.Div([
-    dash_table.DataTable(
-        id='table',
-        columns=[
-            {"name": i, "id": i, "selectable": True, 'hideable': True} for i in df.columns
-        ],
-        data=df.to_dict('records'),
-        editable=True,
-        filter_action="native",
-        sort_action="native",
-        sort_mode="multi",
-        column_selectable="single",
-        selected_columns=[],
-        selected_rows=[],
-        page_action="native",
-        page_current=0,
-        fixed_rows={'headers': True},
-        page_size=20,
-        style_table={'width': '1500px', 'height': '500px', 'overflowY': 'auto'},
-        style_cell={
-            'width': '35px',
-            'maxWidth': '35px',
-            'minWidth': '35px',
-        }
-    ),
-    html.Div(id='bar-container')
-])
+app.layout = html.Div(children=[
+    html.Div(
+        dash_table.DataTable(
+                            id='table',
+                            columns=[
+                                {"name": i, "id": i, "selectable": True, 'hideable': True} for i in df.columns
+                            ],
+                            data=df.to_dict('records'),
+                            editable=True,
+                            filter_action="native",
+                            sort_action="native",
+                            sort_mode="multi",
+                            column_selectable="single",
+                            selected_columns=[],
+                            selected_rows=[],
+                            page_action="native",
+                            page_current=0,
+                            fixed_rows={'headers': True},
+                            page_size=20,
+                            style_table={'height': '500px', 'overflowY': 'auto'},
+                            style_cell={
+                                'width': '35px',
+                                'maxWidth': '35px',
+                                'minWidth': '35px',
+                            }
 
+        )
+    ),
+    html.Div(html.Div(id='bar-container'))
+], style={'width': '100%', 'display': 'flex'})
 
 @app.callback(
     Output(component_id='bar-container', component_property='children'),
@@ -70,7 +73,8 @@ def update_bar(data):
                               xaxis_title='Continent',
                               yaxis_title='Count')
                           .update_traces(texttemplate='%{text:.1f}%', textposition='outside')
-                          )
+                          ),
+            style={'width': '400'}
                       )
     ]
 
